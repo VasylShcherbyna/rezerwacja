@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #4496f3, #c89666);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -83,8 +83,8 @@
 }
 .complete {
   text-decoration-style: solid;
-  text-decoration-line: line-through;
-  text-decoration-color: #ff6c6c;
+  /* text-decoration-line: line-through; */
+  background-color: #c50505;
   opacity: 0.6;
 }
 .list {
