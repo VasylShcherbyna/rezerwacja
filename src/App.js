@@ -5,8 +5,11 @@ import TodosList from './components/TodosList';
 import './App.css';
 
 const App = () => {
+
+  
   const [input, setInput] = useState('');
   const [todos, setTodos] = useState([]);
+  const [editTodo, setEditTodo] = useState(null);
 
   return (
     <div className="container">
@@ -20,10 +23,16 @@ const App = () => {
             setInput={setInput}
             todos={todos}
             setTodos={setTodos}
+            editTodo={editTodo}
+            setEditTodo={setEditTodo}
           />
         </div>
         <div>
-          <TodosList todos={todos} setTodos={setTodos}/>
+          <TodosList
+            todos={todos}
+            setTodos={setTodos}
+            setEditTodo={setEditTodo}
+          />
         </div>
       </div>
     </div>
