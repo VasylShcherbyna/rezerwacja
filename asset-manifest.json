@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rezerwacja/static/css/main.507d780d.css",
+    "main.js": "/rezerwacja/static/js/main.8ba674c2.js",
+    "index.html": "/rezerwacja/index.html",
+    "main.507d780d.css.map": "/rezerwacja/static/css/main.507d780d.css.map",
+    "main.8ba674c2.js.map": "/rezerwacja/static/js/main.8ba674c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507d780d.css",
+    "static/js/main.8ba674c2.js"
+  ]
+}
