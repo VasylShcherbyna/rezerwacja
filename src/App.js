@@ -31,6 +31,7 @@ const App = () => {
             setEditTodo={setEditTodo}
           />
         </div>
+
         <div>
           <TodosList
             todos={todos}
